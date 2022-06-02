@@ -19,7 +19,11 @@
             justify-content: space-between;
             height: 15vh;
             transition: all 1.5s;
-        }
+            -webkit-transition: all 1.5s;
+            -moz-transition: all 1.5s;
+            -ms-transition: all 1.5s;
+            -o-transition: all 1.5s;
+}
     }
         .container__header__logo{
 
@@ -28,7 +32,11 @@
             .container__header__logo{
                 margin-left: 10vw;
                 transition: all 1s;
-            }
+                -webkit-transition: all 1s;
+                -moz-transition: all 1s;
+                -ms-transition: all 1s;
+                -o-transition: all 1s;
+}
         }
         @media(min-width:1000px){
             .container__header__logo{
@@ -49,13 +57,21 @@
                 .container__header__logo-img{
                     margin: 0;
                     transition: all 1.5s;
-                }
+                    -webkit-transition: all 1.5s;
+                    -moz-transition: all 1.5s;
+                    -ms-transition: all 1.5s;
+                    -o-transition: all 1.5s;
+}
             }
             @media(min-width:2000px){
                 .container__header__logo-img{
                     width: 350px;
                     transition: all 1s;
-                }
+                    -webkit-transition: all 1s;
+                    -moz-transition: all 1s;
+                    -ms-transition: all 1s;
+                    -o-transition: all 1s;
+}
             }
         .container__header__ul{
             margin-top: 12px;
@@ -70,7 +86,11 @@
             .container__header__ul{
                 margin-right: 10vw;
                 transition: all 2s;
-            }
+                -webkit-transition: all 2s;
+                -moz-transition: all 2s;
+                -ms-transition: all 2s;
+                -o-transition: all 2s;
+}
         }
             .container__header__ul-a{
                 font-size: 17px;
@@ -85,7 +105,11 @@
                 background-color: #999;
                 color: #111;
                 transition: all 1.5s;
-            }
+                -webkit-transition: all 1.5s;
+                -moz-transition: all 1.5s;
+                -ms-transition: all 1.5s;
+                -o-transition: all 1.5s;
+}
             @media(min-width:550px){
                 .container__header__ul-a{
                     font-size: 22px;
@@ -117,7 +141,11 @@
         position: relative;
         height: 690px;
         transition: all 1s;
-    }
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -ms-transition: all 1s;
+        -o-transition: all 1s;
+}
 }
 @media(min-width:1200px){
     .container__article__presentme{
@@ -142,7 +170,11 @@
         .container__article__presentme-h1{
             font-size: 35px;
             transition: all 1.5s;
-        }
+            -webkit-transition: all 1.5s;
+            -moz-transition: all 1.5s;
+            -ms-transition: all 1.5s;
+            -o-transition: all 1.5s;
+}
     }
     /*Responsive Tablet*/
     @media(min-width: 1000px) {
@@ -151,7 +183,11 @@
             left: 20px;
             transition: all 1.5s;
             position: absolute;
-        }
+            -webkit-transition: all 1.5s;
+            -moz-transition: all 1.5s;
+            -ms-transition: all 1.5s;
+            -o-transition: all 1.5s;
+}
     }
     @media(min-width:1200px){
         .container__article__presentme-h1{
@@ -184,7 +220,11 @@
         .container__article__presentme-p{
             font-size: 30px;
             transition: all 1.5s;
-        }
+            -webkit-transition: all 1.5s;
+            -moz-transition: all 1.5s;
+            -ms-transition: all 1.5s;
+            -o-transition: all 1.5s;
+}
     }
     /*Responsive Tablet*/
     @media(min-width: 1000px) {
@@ -193,7 +233,11 @@
             left: 70px;
             transition: all 1.5s;
             position: absolute;
-        }
+            -webkit-transition: all 1.5s;
+            -moz-transition: all 1.5s;
+            -ms-transition: all 1.5s;
+            -o-transition: all 1.5s;
+}
     }
     @media(min-width:1200px){
         .container__article__presentme-p{
@@ -238,7 +282,11 @@
             .container__article__presentme-img{
                 width: 50%;
                 transition: all 1s;
-            }
+                -webkit-transition: all 1s;
+                -moz-transition: all 1s;
+                -ms-transition: all 1s;
+                -o-transition: all 1s;
+}
         }
         /*Responsive Tablet*/
         @media (min-width:1000px) {
@@ -283,7 +331,11 @@
         .container__article__presentme__icon{
             margin-top: 20px;
             transition: all 1.5s;
-        }
+            -webkit-transition: all 1.5s;
+            -moz-transition: all 1.5s;
+            -ms-transition: all 1.5s;
+            -o-transition: all 1.5s;
+}
     }
     /*Responsive Tablet*/
     @media (min-width:1000px){
