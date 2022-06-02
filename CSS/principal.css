@@ -254,7 +254,7 @@
                 box-shadow: 13px 6px 13px;
             }
         }
-        @media (min-width:1920px){
+        @media (min-width:1800px){
             .container__article__presentme-img{
                 right: 15%;
                 top: 60px;
