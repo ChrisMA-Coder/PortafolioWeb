@@ -160,9 +160,10 @@
             font-size: 45px;
         }
     }
-    @media(min-width:2000px){
+    @media(min-width:1920px){
         .container__article__presentme-h1{
             left: 18%;
+            top: 200px;
             font-size: 55px;
             text-shadow: 25px 25px 10px;
         }
@@ -200,8 +201,9 @@
             font-size: 35px;
         }
     }
-    @media(min-width:2000px){
+    @media(min-width:1920px){
         .container__article__presentme-p{
+            top: 350px;
             left: 18%;
             font-size: 50px;
             text-shadow: 25px 25px 10px;
@@ -239,29 +241,31 @@
             }
         }
         /*Responsive Tablet*/
-        @media(min-width:1000px) {
+        @media (min-width:1000px) {
             .container__article__presentme-img{
                 position: absolute;
                 margin: 0;
                 right: 5%;
                 top: 20px;
-                max-width: 550px;
-                width:40%;
+                width:500px;
                 border-radius: 10px;
                 margin-top: 30px;
                 opacity: .8;
                 box-shadow: 13px 6px 13px;
             }
         }
-        @media(min-width:2000px){
+        @media (min-width:1920px){
             .container__article__presentme-img{
                 right: 15%;
+                top: 60px;
                 box-shadow: 20px 20px 30px 5px;
             }
         }
-        @media(min-width:2300px){
+        @media (min-width: 2300px){
             .container__article__presentme-img{
-                right: 20%;
+                right: 400px;
+                top: 60px;
+                
             }
         }
         /*-----------------------------------*/
@@ -293,7 +297,7 @@
     @media(min-width:1200px){
         .container__article__presentme__icon{
             top: 650px;
-            left: 35%;
+            left: 40%;
         }
     }
     @media(min-width:2300px){
