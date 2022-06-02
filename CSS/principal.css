@@ -389,3 +389,20 @@
             }
         }
         
+    .container__article__description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 700px;
+        background-color:linear-gradient(
+
+        ), rgba(184, 189, 189, 0.7);
+}
+        .container__article__description h1{
+            margin-top: 50px;
+        }
+        .container__article__description__info{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            margin-top: 50px;
+        }
